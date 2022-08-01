@@ -7,10 +7,6 @@ let catobject = {
     hobby3:"i like inventing",
     isabillionaire: true
     }
-console.log("catobject")
-console.log(catobject["name"])
-console.log(catobject["agegrade"])
-console.log(catobject["career"])
-console.log(catobject["hobby"])
-console.log(catobject["hobby2"])
-console.log(catobject["hobby3"])
+catobject["height"] = 6.0; 
+    catobject.hobby3 = "i love doing technology related activities"
+console.log(catobject)
